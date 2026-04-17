@@ -1,0 +1,17 @@
+# Environment & Data
+.env
+chat_history.json
+
+# Python & Virtual Envs
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.log
