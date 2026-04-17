@@ -54,3 +54,7 @@ You can customize the behavior by editing the `.env` file:
 | `KEEP_ALIVE` | How long to keep the model in memory. | `-1` (infinite) |
 
 ---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
