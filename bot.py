@@ -11,7 +11,7 @@ import ollama
 load_dotenv()
 
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-MODEL = os.getenv("OLLAMA_MODEL", "smollm2")
+MODEL = os.getenv("OLLAMA_MODEL", "gemma3")
 KEEP_ALIVE = os.getenv("KEEP_ALIVE", "-1")
 CONTEXT_WINDOW = os.getenv("CONTEXT_WINDOW", "2048")
 MAX_HISTORY = int(os.getenv("MAX_HISTORY", "10"))
