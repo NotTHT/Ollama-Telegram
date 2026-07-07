@@ -48,7 +48,7 @@ You can customize the behavior by editing the `.env` file:
 | Variable | Description | Default |
 | :--- | :--- | :--- |
 | `TELEGRAM_BOT_TOKEN` | Your unique Bot API token. | **Required** |
-| `OLLAMA_MODEL` | The model name (must be downloaded). | `smollm2` |
+| `OLLAMA_MODEL` | The model name (must be downloaded). | `gemma3` |
 | `MAX_HISTORY` | Number of messages to remember for context. | `10` |
 | `CONTEXT_WINDOW` | The `num_ctx` passed to Ollama. | `2048` |
 | `KEEP_ALIVE` | How long to keep the model in memory. | `-1` (infinite) |
